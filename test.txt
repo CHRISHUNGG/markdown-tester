@@ -1,0 +1,68 @@
+1
+{
+"Explanation A": "Incorrect. While it is true that cowpox is less deadly than smallpox, this fact alone did not lead Jenner to hypothesize that cowpox could protect against smallpox.",
+"Explanation B": "Incorrect. Jenner did not initially experiment by injecting a boy with smallpox after exposing him to cowpox. This experiment came later and served as proof of Jenner's hypothesis.",
+"Explanation C": "Incorrect. While Jenner was indeed a physician with a deep interest in vaccination, this fact alone did not lead him to hypothesize that cowpox could protect against smallpox.",
+"Explanation D": "Correct. The text states that Jenner observed that milkmaids who had contracted cowpox did not catch smallpox. This observation led him to hypothesize that cowpox could protect against smallpox."
+}
+2
+{
+"Explanation A": "The text briefly mentions the technical aspects of jazz music, such as improvisation and complex harmonies, but the main focus is not on explaining how to play jazz music.",
+"Explanation B": "Correct. The text provides a historical overview of jazz music, tracing its origins in New Orleans and its evolution over time.",
+"Explanation C": "The text does not discuss the influence of jazz music on popular culture. It primarily focuses on the history and development of the genre itself.",
+"Explanation D": "The text does not make any argument about the superiority of jazz music compared to other genres. It presents jazz as a unique form of musical expression without making value judgments."
+}
+3
+{
+"Explanation A": "Option A suggests that genetic engineering should continue to be developed at an accelerated pace in order to maximize its potential benefits. This implies that the benefits of genetic engineering outweigh the potential ethical dilemmas, and that by continuing to develop the technology, we can find solutions to address these dilemmas.",
+"Explanation B": "Option B suggests that society should maintain a comprehensive dialogue about genetic engineering to ensure that its benefits are realized without compromising moral and ethical standards. This option acknowledges the need for ongoing discussion and evaluation of the ethical implications of genetic engineering, which is crucial for addressing the potential ethical dilemmas. By engaging in dialogue, society can establish guidelines and regulations to ensure responsible and ethical use of genetic engineering.",
+"Explanation C": "Option C suggests that scientists should continue to explore the full extent of what can be achieved with genetic engineering. This option emphasizes the importance of scientific research and discovery, but it does not directly address the ethical concerns associated with genetic engineering. While exploring the potential of genetic engineering is important, it is equally vital to consider the ethical implications and develop guidelines to navigate any potential ethical dilemmas.",
+"Explanation D": "Option D suggests that laws should be enacted to prevent the misuse of genetic engineering while still allowing for its potential benefits to be explored. This option recognizes the need for regulation to prevent unethical practices and misuse of genetic engineering. By enacting laws, society can establish a framework that safeguards against potential ethical dilemmas while still allowing for the exploration of the technology's potential benefits. While it addresses the ethical concerns to some extent, it does not explicitly mention the need for ongoing dialogue and evaluation that Option B suggests." 
+}
+4
+{
+"Explanation A": "The fact that Eliot had a large collection of works by Romantic poets in his personal library does not directly support the argument that his poetry was primarily shaped by his study of classical literature and philosophy. It simply indicates that he had an interest in and access to the works of Romantic poets.",
+"Explanation B": "The observation that Eliot's poetry often uses intricate language and obscure references, similar to the Romantic poets, does not directly support the argument that his poetry was primarily shaped by his study of classical literature and philosophy. It only highlights a similarity in style between Eliot and the Romantic poets.",
+"Explanation C": "The revelation that Eliot regularly referred to classical texts and philosophical ideas when discussing his own work directly supports the argument that his poetry was primarily shaped by his study of classical literature and philosophy. It shows a direct correlation between his study of classical works and the development of his own poetry.",
+"Explanation D": "The fact that Eliot's early poems were heavily influenced by the natural imagery and emotional intensity characteristic of the Romantic poets does not directly support the argument that his poetry was primarily shaped by his study of classical literature and philosophy. It only shows an early influence from Romantic poets, not an ongoing and primary shaping of his poetry."
+}
+5
+{
+"Explanation A": "Incorrect. The comma is necessary to separate the introductory phrase 'for instance' from the rest of the sentence.",
+"Explanation B": "Incorrect. The dash is not needed in this context.",
+"Explanation C": "Correct. The comma is needed to separate the introductory phrase 'for instance' from the rest of the sentence.",
+"Explanation D": "Incorrect. The semicolon is not needed in this context."
+}
+6
+{
+"Explanation A": "The phrase 'Despite its size' implies that despite being large in structure, the Dire Wolf had limitations in terms of brain size and teeth strength, which could have impacted its ability to be the top predator.",
+"Explanation B": "The phrase 'For example' would be appropriate if the sentence was providing a specific example of the Dire Wolf's smaller brain and weaker teeth. However, since the sentence is making a general statement, B is not the most logical transition.",
+"Explanation C": "The phrase 'Moreover' suggests adding information that supports the previous statement. However, the sentence is contrasting the size of the Dire Wolf with its brain and teeth, so C is not the most logical transition.",
+"Explanation D": "The phrase 'In contrast' signifies that the sentence is contrasting the earlier statement about the Dire Wolf's size with its brain and teeth. Therefore, D would not be the most logical transition."
+}
+7
+{
+"Explanation A": "This is not the correct verb form. \"Involve\" is the base form of the verb, while the sentence requires the third person singular form, which is \"involves\".",
+"Explanation B": "This is the correct verb form. \"Involves\" is the third person singular form of the verb, which agrees with the subject \"the Festival of San Fermín\".",
+"Explanation C": "This is not the correct verb form. \"Is involving\" is the present continuous form of the verb, which does not fit the context of the sentence.",
+"Explanation D": "This is not the correct verb form. \"Has involved\" is the present perfect form of the verb, which implies a past action that is not appropriate here."
+}
+8
+{
+"Explanation": "To find the maximum number of large candles the owner can purchase within the budget, we need to consider the discounted pricing and the budget constraint.\n\nThe owner must purchase a minimum of 200 candles to maintain the discounted pricing. Let's assume the owner purchases 200 small candles, which would cost 200 * $4.90 = $980.\n\nThe remaining budget would be $2,200 - $980 = $1,220.\n\nSince the owner must maintain the discounted pricing, the maximum number of large candles the owner can purchase is limited by the remaining budget divided by the cost per large candle: $1,220 / $11.60 = 105.17 (rounded to the nearest whole number).\n\nHowever, since the owner must purchase a minimum of 200 candles, we can only purchase the maximum number of large candles until we reach the 200 candle minimum. Therefore, the maximum number of large candles the owner can purchase is 182 (200 - 18).",
+}
+9
+{
+"Explanation A": "To find the value of $\tan W$, we need the lengths of side $\overline{\rm UV}$ and side $\overline{\rm WV}$. Since we only have information about side lengths in triangle $\triangle RST$, we cannot determine the length of side $\overline{\rm UV}$. Therefore, option A is incorrect.",
+"Explanation B": "Similarly to option A, we cannot determine the value of $\tan W$ since we do not have enough information about triangle $\triangle UVW$. Thus, option B is incorrect.",
+"Explanation C": "Again, without knowing the lengths of side $\overline{\rm UV}$ and side $\overline{\rm WV}$, we cannot determine the value of $\tan W$. Option C is incorrect.",
+"Explanation D": "Since $\triangle RST$ is similar to $\triangle UVW$, the corresponding angles are equal. This means that angle $W$ in triangle $\triangle UVW$ is equal to angle $T$ in triangle $\triangle RST$. Since we know the lengths of side $\overline{\rm RS}$ and side $\overline{\rm ST}$, we can use the tangent function to find the value of $\tan T$. \n\n$\tan T = \frac{{\rm opposite}}{{\rm adjacent}} = \frac{{\overline{\rm RS}}}{{\overline{\rm ST}}} = \frac{{20}}{{48}} = \frac{5}{12}$\n\nSince angle $W$ in triangle $\triangle UVW$ is equal to angle $T$ in triangle $\triangle RST$, the value of $\tan W$ is also $\frac{5}{12}$. Therefore, option D is correct."
+}
+
+10
+{
+"Explanation A": "This equation suggests that the value of $q(x)$ decreases by $45%$ every time $x$ increases by $1$. However, $q(0)$ is given to be $14$. This means that when $x=0$, the value of $q(x)$ is $14$. But in this equation, when $x=0$, the value of $q(x)$ would be $0.55(14)^0=0.55$, which is not $14$. Therefore, this equation does not define $q$ correctly.",
+"Explanation B": "This equation suggests that the value of $q(x)$ increases by $45%$ every time $x$ increases by $1$. However, the problem states that the value of $q(x)$ decreases by $45%$ every time $x$ increases by $1$. Therefore, this equation does not define $q$ correctly.",
+"Explanation C": "This equation correctly defines $q$ according to the given information. It states that the value of $q(x)$ decreases by $45%$ every time $x$ increases by $1$. When $x=0$, the value of $q(x)$ is $14$, which matches the given information $q(0)=14$. Therefore, this equation is correct.",
+"Explanation D": "This equation suggests that the value of $q(x)$ increases by $45%$ every time $x$ increases by $1$. However, the problem states that the value of $q(x)$ decreases by $45%$ every time $x$ increases by $1$. Therefore, this equation does not define $q$ correctly."
+}

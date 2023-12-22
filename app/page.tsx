@@ -10,11 +10,15 @@ export default function Home() {
 			<h1 className="font-bold text-3xl drop-shadow-md bg-gradient-to-br from-[#824FFB] to-[#3B60EC] bg-clip-text text-transparent">
 				MARKDOWN TESTER
 			</h1>
-			<div className="flex w-1/2 justify-center gap-3 items-center">
+			<div className="flex w-2/3 justify-center gap-3 items-center">
 				<textarea
 					value={string}
 					className="flex-1 p-1 rounded border shadow-inner gap-3 bg-white"
-					onChange={(e) => setString(`${e.target.value}`)}
+					onChange={(e) => {
+						let string = e.target.value;
+
+						setString(string);
+					}}
 					name=""
 					id=""
 				/>
@@ -25,8 +29,8 @@ export default function Home() {
 				</button>
 			</div>
 
-			<div className="markdown-body p-1 border rounded bg-white w-1/2 aspect-video">
-				<MdxDisplay mdxString={string.replaceAll("\\\\", "\\")} />
+			<div className="markdown-body p-1 border rounded bg-white w-2/3 aspect-video">
+				<MdxDisplay mdxString={string} />
 			</div>
 		</div>
 	);

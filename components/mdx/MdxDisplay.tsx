@@ -21,7 +21,7 @@ const MdxDisplay = ({ mdxString }: Props) => {
 		function () {
 			(async function () {
 				const code = String(
-					await compile(`${mdxString.replaceAll("\n", "<br/>")}`, {
+					await compile(`${mdxString.replaceAll("\\n", "<br/>")}`, {
 						outputFormat: "function-body",
 						rehypePlugins: [rehypeKatex],
 						remarkPlugins: [remarkMath, remarkGfm],
