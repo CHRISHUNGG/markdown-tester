@@ -5,8 +5,10 @@ import { useState } from "react";
 export default function Home() {
 	const [string, setString] = useState<string>("");
 	return (
-		<div className=" w-dvw h-dvh bg-gray-200 flex flex-col justify-center items-center gap-4 bg-gradient-to-br from-[#824FFB] to-[#3B60EC] bg-clip-text text-transparent">
-			<h1 className="font-bold text-2xl drop-shadow-md">MARKDOWN TESTER</h1>
+		<div className=" w-dvw h-dvh bg-gray-200 flex flex-col justify-center items-center gap-4 ">
+			<h1 className="font-bold text-3xl drop-shadow-md bg-gradient-to-br from-[#824FFB] to-[#3B60EC] bg-clip-text text-transparent">
+				MARKDOWN TESTER
+			</h1>
 			<div className="flex w-1/2 justify-center gap-3 items-center">
 				<input
 					value={string}
