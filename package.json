@@ -36,6 +36,7 @@
 		"dayjs": "^1.11.10",
 		"desmos": "^1.5.4",
 		"dompurify": "^3.0.6",
+		"github-markdown-css": "^5.5.0",
 		"katex": "^0.16.9",
 		"lexical": "^0.12.5",
 		"next": "14.0.4",

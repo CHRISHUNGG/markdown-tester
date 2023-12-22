@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import MdxDisplay from "@/components/mdx/MdxDisplay";
+
 import { useState } from "react";
 export default function Home() {
 	const [string, setString] = useState<string>("");
@@ -10,11 +11,10 @@ export default function Home() {
 				MARKDOWN TESTER
 			</h1>
 			<div className="flex w-1/2 justify-center gap-3 items-center">
-				<input
+				<textarea
 					value={string}
 					className="flex-1 p-1 rounded border shadow-inner gap-3 bg-white"
-					onChange={(e) => setString(e.target.value)}
-					type="text"
+					onChange={(e) => setString(`${e.target.value}`)}
 					name=""
 					id=""
 				/>
@@ -25,7 +25,7 @@ export default function Home() {
 				</button>
 			</div>
 
-			<div className="p-1 border rounded bg-white w-1/2 aspect-video">
+			<div className="markdown-body p-1 border rounded bg-white w-1/2 aspect-video">
 				<MdxDisplay mdxString={string.replaceAll("\\\\", "\\")} />
 			</div>
 		</div>
