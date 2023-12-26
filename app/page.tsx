@@ -15,9 +15,10 @@ export default function Home() {
 					value={string}
 					className="flex-1 p-1 rounded border shadow-inner gap-3 bg-white"
 					onChange={(e) => {
+						console.log(e);
 						let string = e.target.value;
 
-						setString(string);
+						setString(`${string}`);
 					}}
 					name=""
 					id=""

@@ -21,11 +21,16 @@ const MdxDisplay = ({ mdxString }: Props) => {
 		function () {
 			(async function () {
 				const code = String(
-					await compile(`${mdxString.replaceAll("\\n", "<br/>")}`, {
-						outputFormat: "function-body",
-						rehypePlugins: [rehypeKatex],
-						remarkPlugins: [remarkMath, remarkGfm],
-					}),
+					await compile(
+						`${mdxString
+							.replaceAll("\\n", "\n")
+							.replaceAll(/(?<!\|)\n(?!|)/g, "<br/>")}`,
+						{
+							outputFormat: "function-body",
+							rehypePlugins: [rehypeKatex],
+							remarkPlugins: [remarkMath, remarkGfm],
+						},
+					),
 				);
 				setMdxModule(
 					await run(code, { ...runtime, baseUrl: import.meta.url, Fragment }),
