@@ -30,9 +30,7 @@ function replaceNewlinesOutsideDollarExpressions(text: string): string {
 		.map((segment, index) => {
 			console.log("segment", segment);
 			insideDollarExpression = index % 2 === 1;
-			return insideDollarExpression
-				? segment
-				: segment.replace(/\\n/g, "<br />");
+			return insideDollarExpression ? segment : segment.replace(/\\n/g, `\n`);
 		})
 		.join("$");
 }
